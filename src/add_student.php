@@ -20,7 +20,7 @@ session_start();
     $data=mysqli_connect($host,$user,$password,$db);
 
     if(isset($_POST['add_student'])){
-        $user_name = $_POST['name'];        //name same as from name in form
+        $user_name = $_POST['name'];        //name same as from name in form // this is a comment
         $user_email = $_POST['email'];
         $user_phone = $_POST['phone'];
         $user_password = $_POST['password'];
